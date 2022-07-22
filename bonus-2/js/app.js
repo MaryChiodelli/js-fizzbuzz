@@ -6,6 +6,7 @@ for (let i = 1; i <= 100; i++) {
     const number = i;
     // creare un div
     const divElement = document.createElement('div');
+    divElement.classList.add('square');
     
     // inserire il contenuto del div
     if (number % 3 === 0 && number % 5 === 0) {    // SE il numero è un multiplo di 3 e 5
